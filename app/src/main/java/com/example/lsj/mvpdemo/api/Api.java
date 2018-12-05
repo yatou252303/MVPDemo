@@ -13,6 +13,8 @@ public interface Api {
      * wanandroid 首页文章列表
      *
      * @param curPage 当前第几页
+     *
+     *                adsfdgit
      * @return
      */
     @GET("article/list/{curPage}/json")
