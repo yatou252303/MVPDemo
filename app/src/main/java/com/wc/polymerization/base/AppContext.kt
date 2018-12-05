@@ -19,6 +19,7 @@ class AppContext : CoreBase(){
     init {
         SmartRefreshLayout.setDefaultRefreshHeaderCreator { _, _ -> ClassicsHeader(applicationContext) }
         SmartRefreshLayout.setDefaultRefreshFooterCreator { _, _ -> ClassicsFooter(applicationContext) }
+        //测试代码
     }
 
     override fun onCreate() {
