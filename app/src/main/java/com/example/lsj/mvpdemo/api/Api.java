@@ -22,6 +22,8 @@ public interface Api {
      * 获取首页banner数据
      *
      * @return
+     *
+     * fasdfadsf
      */
     @GET("banner/json")
     Observable<BannerBean> getBanner();
